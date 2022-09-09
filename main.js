@@ -22,13 +22,17 @@ function decre() {
     }
 }
 function generate() {
-    if (isAlive===true) {
-        for (let i=0; i<length ; i++) {
-         passOneEl.textContent += characters[Math.floor(Math.random()*characters.length)]
-         passTwoEl.textContent += characters[Math.floor(Math.random()*characters.length)]
+    if (isAlive===true) { 
+        if (length<20) {
+            for (let i=0; i<length ; i++) {
+                passOneEl.textContent += characters[Math.floor(Math.random()*characters.length)]
+                passTwoEl.textContent += characters[Math.floor(Math.random()*characters.length)]
+            }
         }
-    }   
-    isAlive = false
+        else if (length>20) {
+            passOneEl.textContent += "Sorry the length exceeds beyond my reach"
+            passTwoEl.textContent += "Sorry the length exceeds beyond my reach"
+        }
+        isAlive = false
+    }
 }
-
-
