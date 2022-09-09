@@ -15,9 +15,11 @@ function incre() {
     isAlive = true
 }
 function decre() {
+    if (length>0){
     length -= 1
     lengthEL.textContent = length
     isAlive = true
+    }
 }
 function generate() {
     if (isAlive===true) {
