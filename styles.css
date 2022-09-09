@@ -1,0 +1,99 @@
+*{
+    /* background:rgba(31, 41, 55, 1) url(passwordGenerator.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background:rgba(31, 41, 55, 1) url(passwordGenerator.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 1);
+   
+}
+
+h2, h3 {
+    color:rgba(5, 150, 105, 1);
+
+}
+
+p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+}
+
+#length-el {
+    padding-left: 39px;
+}
+
+.btnOne{
+    padding-bottom: 20px;
+    padding-left: 90px;
+}
+
+#increment-btn {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(5, 150, 105, 1);
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    width: 40px;
+    height: 25px;
+}
+
+#decrement-btn {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(5, 150, 105, 1);
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    width: 40px;
+    height: 25px;
+    
+}
+
+#generate-el{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    width: 150px;
+    height: 50px;
+    background:rgba(5, 150, 105, 1);
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    
+}
+
+#refresh-el{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    width: 150px;
+    height: 50px;
+    background:rgba(5, 150, 105, 1);
+
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+
+h3 {
+    background: rgba(17, 24, 39, 1);
+    width: 250px;
+    height: 30px;
+    padding-left: 50px;
+}
+
+/* #passOne-el {
+    padding: 20px;
+}
+
+passTwo-el {
+    padding: 20px;
+} */
